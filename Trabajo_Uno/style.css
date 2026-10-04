@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #545fca;
+    background-color: #f9fafb;
+}
+header{
+    background-color: #3f105a;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+main{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    color: #4d5057;
+    font-size: 0.875rem;
+}
+.campos { /*section creo*/
+    display: flex; /*investigue y es como una forma para que se adapte a los cuadros o que se acomode LO DEL FLEX*/
+    flex-direction: column;
+    gap: 5px;
+  }
+  button {
+    background-color: #9da348;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #2c7a7b;
+  }
+
+  .datos input{
+    background-color: #dbd4cd;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding:  0.5rem;
+    
+}
+.lbdatos label{
+    font-size: 20px;
+}
+h2{
+    margin-top: 0;
+    font-size: 1.1rem;
+}
