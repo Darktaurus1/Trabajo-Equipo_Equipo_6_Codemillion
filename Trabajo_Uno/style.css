@@ -53,3 +53,17 @@ h2{
     margin-top: 0;
     font-size: 1.1rem;
 }
+.tarjeta{ /*article*/
+    background-color: #84d5ee;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #0080ff;
+}
+
+.catalogo{ /*section*/
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem 1.5rem;
+    background-color: #b2d8a1;
+    border-radius: 10px;
+}
